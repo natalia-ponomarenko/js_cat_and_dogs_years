@@ -18,7 +18,7 @@ function convertToHuman(animalAge, first, second, other) {
     return 0;
   }
 
-  if (animalAge < first + second) {
+  if (animalAge < (first + second)) {
     return 1;
   }
 
